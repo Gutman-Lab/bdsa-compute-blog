@@ -36,8 +36,6 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Edit the base directory of docs
           routeBasePath: 'docs',
-          // Make docs index the home page
-          homePageId: 'index',
         },
         blog: {
           showReadingTime: true,

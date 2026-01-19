@@ -1,3 +1,7 @@
+---
+slug: /
+---
+
 # BDSA Compute Blog
 
 Welcome to the **BDSA Compute Blog** — a comprehensive resource for tracking algorithms, performance metrics, and computational benchmarks for the **BDSA** (open source image analysis platform) project.
