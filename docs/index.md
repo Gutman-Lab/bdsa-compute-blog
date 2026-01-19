@@ -1,35 +1,143 @@
-# Welcome to BDSA Compute Blog
+# BDSA Compute Blog
 
-This site tracks experiment results, benchmarks, and updates for the **BDSA** (open source image analysis platform) project.
+Welcome to the **BDSA Compute Blog** — a comprehensive resource for tracking algorithms, performance metrics, and computational benchmarks for the **BDSA** (open source image analysis platform) project.
 
-## What is This Site?
+## What is BDSA?
 
-This is a **data-first, Markdown-based experiment tracking system** that serves as:
+BDSA is an open-source image analysis platform designed for histopathology and medical image analysis. This site provides:
 
-- 📊 **Experiment Registry** - Browse and compare experiment results
-- 📝 **Lab Notebook** - Track methodology, datasets, and evaluation protocols
-- 🗞️ **Blog** - Release notes, experiment highlights, and progress updates
+- 📊 **Algorithm Documentation** - Detailed descriptions of available functions and methods
+- ⚡ **Performance Metrics** - Runtime benchmarks and execution time comparisons
+- 🖥️ **Hardware Comparisons** - Performance across different compute environments
+- 📈 **Experiment Tracking** - Reproducible results and methodology documentation
 
-## Core Principles
+## Available Functions
 
-1. **Results are data** - Experiments emit JSON + plots; pages are generated programmatically
-2. **Markdown-first** - Easy to diff, review, and version
-3. **No servers** - Static site hosted on GitHub Pages
-4. **Low maintenance** - GitHub Actions handles builds automatically
+BDSA provides a suite of image analysis algorithms optimized for whole-slide imaging and histopathology workflows:
 
-## Quick Navigation
+### Core Algorithms
 
-- **[Algorithms](/docs/algorithms)** - Learn about BDSA algorithms and methods
-- **[Experiments](/docs/experiments)** - Browse experiment results and leaderboard
-- **[Methodology](/docs/methodology)** - Learn about datasets and evaluation protocols
-- **[Blog](/blog)** - Read updates and release notes
+#### [Positive Pixel Count (PPC)](/docs/algorithms/positive-pixel-count)
+A color-based segmentation algorithm for immunohistochemistry (IHC) analysis. Classifies pixels in HSI color space to identify and quantify staining intensity.
+
+- **Use Cases**: IHC scoring, automated tissue analysis, biomarker quantification
+- **Input**: Whole-slide images (SVS, TIFF) or image regions
+- **Output**: Pixel classifications (negative, weak, plain, strong), statistical summaries, label images
+
+*[Learn more about PPC →](/docs/algorithms/positive-pixel-count)*
+
+### Additional Functions
+
+*More algorithms will be documented as they are added to BDSA.*
+
+## Performance Metrics
+
+This site tracks performance characteristics of BDSA functions across different scenarios:
+
+### Runtime Benchmarks
+
+Performance metrics include:
+- **Execution time** for different image sizes
+- **Memory usage** during processing
+- **Throughput** (images processed per hour)
+- **Scalability** with parallel processing
+
+### Typical Performance
+
+Performance varies based on:
+- Image size and resolution
+- Number of parallel processes
+- Hardware specifications
+- Region of interest (ROI) size
+
+*Detailed performance data is available in the [Experiments](/docs/experiments) section.*
+
+## Hardware Comparisons
+
+We track and compare performance across different compute environments:
+
+### Supported Platforms
+
+- **Local workstations** - Development and testing
+- **High-performance clusters** - Large-scale batch processing
+- **Cloud computing** - Scalable on-demand processing
+- **GPU acceleration** - Where applicable
+
+### Performance Factors
+
+Key factors affecting performance:
+- **CPU cores** - Parallel processing capability
+- **Memory** - Large image handling
+- **Storage I/O** - Image loading speed
+- **Network** - For distributed processing
+
+*Hardware-specific benchmarks and comparisons will be documented as data becomes available.*
+
+## Site Contents
+
+This site is organized into several sections:
+
+### 📚 [Algorithms](/docs/algorithms)
+Comprehensive documentation of BDSA algorithms, including:
+- Algorithm descriptions and theory
+- Parameter explanations
+- Usage examples
+- Implementation details
+
+### 📊 [Experiments](/docs/experiments)
+Experiment registry with:
+- Automated result tracking
+- Performance comparisons
+- Reproducible configurations
+- Statistical summaries
+
+### 📝 [Methodology](/docs/methodology)
+Documentation of:
+- Datasets used in analysis
+- Evaluation protocols
+- Quality control procedures
+- Best practices
+
+### 🗞️ [Blog](/blog)
+Regular updates including:
+- Algorithm introductions and tutorials
+- Performance analysis reports
+- Hardware comparison studies
+- Release notes and updates
 
 ## Getting Started
 
-To add a new experiment:
+### For Users
 
-1. Run your experiment pipeline (emits `metrics.json` + plots)
-2. Run the generator script: `python scripts/generate_experiment_pages.py`
+1. **Explore Algorithms** - Start with the [Algorithms](/docs/algorithms) section to understand available functions
+2. **Review Performance** - Check the [Experiments](/docs/experiments) section for runtime benchmarks
+3. **Read the Blog** - Follow the [Blog](/blog) for updates and detailed analyses
+
+### For Contributors
+
+To add new experiment results:
+
+1. Run your analysis pipeline (outputs JSON + plots)
+2. Run the generator: `python scripts/generate_experiment_pages.py <results-dir>`
 3. Commit and push - GitHub Actions will publish automatically
 
-For more details, see the [README](https://github.com/gutman-lab/bdsa-compute-blog) in the repository.
+See the [README](https://github.com/gutman-lab/bdsa-compute-blog) for detailed instructions.
+
+## Data-Driven Approach
+
+This site follows a **data-first philosophy**:
+
+- ✅ All results are generated from structured data (JSON)
+- ✅ Full reproducibility with versioned parameters
+- ✅ Automated updates via GitHub Actions
+- ✅ Transparent and auditable results
+
+Every experiment includes:
+- Complete parameter configurations
+- Runtime and resource usage
+- Git commit hashes for reproducibility
+- Raw data and visualizations
+
+---
+
+**BDSA Compute Blog** - Tracking algorithms, performance, and benchmarks for reproducible image analysis.
