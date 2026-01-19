@@ -14,7 +14,7 @@ const config: Config = {
   baseUrl: '/bdsa-compute-blog/',
 
   // GitHub pages deployment config.
-  organizationName: 'gutman-lab',
+  organizationName: 'Gutman-Lab',
   projectName: 'bdsa-compute-blog',
 
   onBrokenLinks: 'throw',
