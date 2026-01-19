@@ -4,8 +4,8 @@ title: Understanding the Positive Pixel Count Algorithm
 authors:
   - name: David Gutman
     title: BDSA Project Maintainer
-    url: https://github.com/dagutman
-    image_url: https://github.com/dagutman.png
+    url: https://github.com/dgutman
+    image_url: https://github.com/dgutman.png
 tags: [algorithms, ihc, image-analysis, segmentation]
 ---
 
