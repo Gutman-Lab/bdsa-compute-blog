@@ -12,9 +12,9 @@
    ```bash
    npm start
    ```
-   Visit `http://localhost:3000/bdsa-compute-blog/` to see your site.
+   Visit `http://localhost:3030/bdsa-compute-blog/` to see your site.
    
-   **Note:** The baseUrl `/bdsa-compute-blog/` is required for local development to match the GitHub Pages deployment path.
+   **Note:** The baseUrl `/bdsa-compute-blog/` is required for local development to match the GitHub Pages deployment path. The dev server runs on port 3030 by default.
 
 ## First Steps
 

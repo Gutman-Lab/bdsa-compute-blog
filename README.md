@@ -147,9 +147,9 @@ Markdown/MDX pages are versioned, artifacts are immutable per run, and every cha
    ```
    
    This starts a local development server. Access it at:
-   - `http://localhost:3000/bdsa-compute-blog/` (or the port shown in the terminal)
+   - `http://localhost:3030/bdsa-compute-blog/`
    
-   **Note:** The `/bdsa-compute-blog/` path is required to match the GitHub Pages deployment structure.
+   **Note:** The dev server runs on port 3030 by default. The `/bdsa-compute-blog/` path is required to match the GitHub Pages deployment structure.
 
 3. **Build for production:**
    ```bash
