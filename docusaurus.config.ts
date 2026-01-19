@@ -56,7 +56,7 @@ const config: Config = {
       title: 'BDSA Compute Blog',
       logo: {
         alt: 'BDSA Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
