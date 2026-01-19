@@ -16,6 +16,11 @@ const sidebars: SidebarsConfig = {
     'index',
     {
       type: 'category',
+      label: 'Algorithms',
+      items: ['algorithms/index', 'algorithms/positive-pixel-count'],
+    },
+    {
+      type: 'category',
       label: 'Methodology',
       items: ['methodology/datasets', 'methodology/evaluation'],
     },

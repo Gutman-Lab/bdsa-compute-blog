@@ -19,6 +19,7 @@ This is a **data-first, Markdown-based experiment tracking system** that serves 
 
 ## Quick Navigation
 
+- **[Algorithms](/docs/algorithms)** - Learn about BDSA algorithms and methods
 - **[Experiments](/docs/experiments)** - Browse experiment results and leaderboard
 - **[Methodology](/docs/methodology)** - Learn about datasets and evaluation protocols
 - **[Blog](/blog)** - Read updates and release notes
