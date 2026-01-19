@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'BDSA Compute Blog',
   tagline: 'Experiment Tracking & Results for BDSA',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-32x32.png',
 
   // Set the production url of your site here
   url: 'https://gutman-lab.github.io',

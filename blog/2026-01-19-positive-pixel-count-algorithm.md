@@ -94,6 +94,22 @@ color_map[ppc.Labels.STRONG] = 180, 4, 38, 255      # Red
 
 This visualization helps users understand the spatial distribution of staining intensity across the tissue.
 
+## Visualizing PPC Results
+
+The PPC algorithm produces color-coded output images that clearly show the classification of each pixel. The visualization uses the following color scheme:
+
+- **White** = Negative pixels
+- **Blue** = Weak positive pixels  
+- **Light gray** = Plain positive pixels
+- **Red** = Strong positive pixels
+
+<!-- 
+Example images will be added here once available:
+- Original IHC image with PPC classification overlay
+- Region-specific analysis examples
+- Detailed classification maps
+-->
+
 ## Results and Statistics
 
 After processing, the algorithm combines results from all tiles and calculates statistics:
