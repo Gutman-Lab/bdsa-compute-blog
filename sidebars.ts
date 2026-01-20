@@ -31,7 +31,10 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Experiments',
-      items: ['experiments/index'],
+      items: [
+        'experiments/index',
+        'experiments/ppc_orig_algorithm_results',
+      ],
     },
   ],
 };
