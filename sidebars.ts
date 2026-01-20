@@ -30,6 +30,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Development',
+      items: ['development/adding-clis'],
+    },
+    {
+      type: 'category',
       label: 'Experiments',
       items: [
         'experiments/index',
