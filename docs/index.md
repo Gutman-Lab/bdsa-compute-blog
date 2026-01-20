@@ -1,6 +1,3 @@
----
-slug: /
----
 
 # BDSA Compute Blog
 
