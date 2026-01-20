@@ -13,7 +13,11 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
-    'index',
+    {
+      type: 'doc',
+      id: 'index',
+      label: 'Home',
+    },
     {
       type: 'category',
       label: 'Algorithms',
