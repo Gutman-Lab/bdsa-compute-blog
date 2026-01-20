@@ -18,7 +18,11 @@ const config: Config = {
   projectName: 'bdsa-compute-blog',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -41,6 +45,10 @@ const config: Config = {
           showReadingTime: true,
           // Edit the base directory of blog
           routeBasePath: 'blog',
+          // Allow inline authors to avoid warnings
+          onInlineAuthors: 'ignore',
+          // Allow posts without truncation markers
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: './src/css/custom.css',

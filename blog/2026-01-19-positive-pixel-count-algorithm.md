@@ -2,14 +2,13 @@
 slug: positive-pixel-count-algorithm
 title: Understanding the Positive Pixel Count Algorithm
 authors:
-  - name: David Gutman
-    title: BDSA Project Maintainer
-    url: https://github.com/dgutman
-    image_url: https://github.com/dgutman.png
+  - dgutman
 tags: [algorithms, ihc, image-analysis, segmentation]
 ---
 
 The Positive Pixel Count (PPC) algorithm is one of the core image analysis methods in BDSA. In this post, we'll explore how it works, why we use HSI color space, and how to interpret its results.
+
+<!-- truncate -->
 
 ## What is Positive Pixel Count?
 
